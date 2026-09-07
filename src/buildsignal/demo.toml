@@ -1,0 +1,6 @@
+[scan]
+minimum_score = 0.0
+[[repositories]]
+name = "example/local-server"
+[[repositories]]
+name = "example/agent-runtime"

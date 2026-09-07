@@ -1,0 +1,23 @@
+{
+  "description": "Synthetic fixtures. Repository names and issue numbers are fictional.",
+  "repositories": {
+    "example/local-server": {
+      "private": false,
+      "issues": [
+        {"number": 1, "title": "Tool calls returned as plain text", "body": "The server emits tool call JSON in the text field, requiring manual parsing and validation before an agent can use tools.", "updated_at": "2026-09-06T00:00:00Z", "comments": 12, "reactions": {"total_count": 20}, "labels": ["bug"]},
+        {"number": 2, "title": "Need per-request memory metrics", "body": "Expose peak resident memory per inference request for local hardware sizing and regression tracking.", "updated_at": "2026-09-05T00:00:00Z", "comments": 3, "labels": ["enhancement"]},
+        {"number": 3, "title": "Security report excluded", "updated_at": "2026-09-05T00:00:00Z", "labels": ["security"]}
+      ],
+      "releases": [{"id": 1, "name": "Tool call schema validation", "body": "Adds tool call validation hooks", "published_at": "2026-09-05T00:00:00Z"}]
+    },
+    "example/agent-runtime": {
+      "private": false,
+      "issues": [
+        {"number": 10, "title": "Tool call plain text parsing is inconsistent", "body": "Local model tools return plain text instead of structured function calls. We need reproducible parsing fixtures.", "updated_at": "2026-09-04T00:00:00Z", "comments": 8, "reactions": {"total_count": 11}, "labels": ["bug"]},
+        {"number": 11, "title": "Stable tool catalog ordering for prompt cache", "body": "Tool catalog discovery changes order between runs, invalidating prompt cache prefixes and increasing inference cost.", "updated_at": "2026-09-05T00:00:00Z", "comments": 6, "labels": ["enhancement"]},
+        {"number": 12, "title": "A pull request", "updated_at": "2026-09-05T00:00:00Z", "pull_request": {"url": "example"}}
+      ],
+      "releases": []
+    }
+  }
+}

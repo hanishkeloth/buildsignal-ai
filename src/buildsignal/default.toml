@@ -1,0 +1,28 @@
+# Copy with: buildsignal init
+[scan]
+days = 45
+max_issues = 100
+max_releases = 20
+max_opportunities = 8
+threshold = 0.28
+minimum_score = 25.0
+
+[enrichment]
+enabled = false
+base_url = "http://127.0.0.1:11434/v1"
+model = "" # Set to an installed model supporting JSON chat completions.
+allow_remote = false
+api_key_env = ""
+
+[[repositories]]
+name = "modelcontextprotocol/modelcontextprotocol"
+[[repositories]]
+name = "openai/openai-agents-python"
+[[repositories]]
+name = "ollama/ollama"
+[[repositories]]
+name = "ggml-org/llama.cpp"
+[[repositories]]
+name = "vllm-project/vllm"
+[[repositories]]
+name = "ml-explore/mlx-lm"

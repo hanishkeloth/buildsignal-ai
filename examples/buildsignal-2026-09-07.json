@@ -1,0 +1,208 @@
+{
+  "as_of": "2026-09-07T00:00:00+00:00",
+  "demo": true,
+  "opportunities": [
+    {
+      "brief": {
+        "problem": "Tool calls returned as plain text",
+        "proposed_v1": [
+          "Reproduce the linked issues with deterministic fixtures.",
+          "Implement one narrow workflow that resolves the repeated friction.",
+          "Compare maintained competitors before committing to scope."
+        ],
+        "validation": [
+          "Validate the need with affected maintainers.",
+          "Publish a runnable before/after example."
+        ]
+      },
+      "competition": {
+        "query": "call text tool",
+        "repositories": [],
+        "total_count": 0
+      },
+      "components": {
+        "breadth": 50,
+        "competition_gap": 100.0,
+        "demand": 100,
+        "evidence": 100.0,
+        "recency": 95.51,
+        "release_momentum": 55
+      },
+      "enriched": false,
+      "id": "a854d9247ef1",
+      "issues": [
+        {
+          "comments": 8,
+          "id": "example/agent-runtime:issue:10",
+          "kind": "issue",
+          "labels": [
+            "bug"
+          ],
+          "reactions": 11,
+          "repository": "example/agent-runtime",
+          "title": "Tool call plain text parsing is inconsistent",
+          "updated_at": "2026-09-04T00:00:00+00:00",
+          "url": "https://github.com/example/agent-runtime/issues/10"
+        },
+        {
+          "comments": 12,
+          "id": "example/local-server:issue:1",
+          "kind": "issue",
+          "labels": [
+            "bug"
+          ],
+          "reactions": 20,
+          "repository": "example/local-server",
+          "title": "Tool calls returned as plain text",
+          "updated_at": "2026-09-06T00:00:00+00:00",
+          "url": "https://github.com/example/local-server/issues/1"
+        }
+      ],
+      "keywords": [
+        "call",
+        "text",
+        "tool",
+        "plain",
+        "parsing"
+      ],
+      "releases": [
+        {
+          "comments": 0,
+          "id": "example/local-server:release:1",
+          "kind": "release",
+          "labels": [],
+          "reactions": 0,
+          "repository": "example/local-server",
+          "title": "Tool call schema validation",
+          "updated_at": "2026-09-05T00:00:00+00:00",
+          "url": "https://github.com/example/local-server/releases"
+        }
+      ],
+      "score": 86.59,
+      "title": "Tool calls returned as plain text"
+    },
+    {
+      "brief": {
+        "problem": "Stable tool catalog ordering for prompt cache",
+        "proposed_v1": [
+          "Reproduce the linked issues with deterministic fixtures.",
+          "Implement one narrow workflow that resolves the repeated friction.",
+          "Compare maintained competitors before committing to scope."
+        ],
+        "validation": [
+          "Validate the need with affected maintainers.",
+          "Publish a runnable before/after example."
+        ]
+      },
+      "competition": {
+        "query": "cache catalog prompt",
+        "repositories": [],
+        "total_count": 0
+      },
+      "components": {
+        "breadth": 25,
+        "competition_gap": 100.0,
+        "demand": 62.38,
+        "evidence": 100.0,
+        "recency": 95.48,
+        "release_momentum": 20
+      },
+      "enriched": false,
+      "id": "cbf1d111c91f",
+      "issues": [
+        {
+          "comments": 6,
+          "id": "example/agent-runtime:issue:11",
+          "kind": "issue",
+          "labels": [
+            "enhancement"
+          ],
+          "reactions": 0,
+          "repository": "example/agent-runtime",
+          "title": "Stable tool catalog ordering for prompt cache",
+          "updated_at": "2026-09-05T00:00:00+00:00",
+          "url": "https://github.com/example/agent-runtime/issues/11"
+        }
+      ],
+      "keywords": [
+        "cache",
+        "catalog",
+        "prompt",
+        "tool",
+        "ordering"
+      ],
+      "releases": [],
+      "score": 68.75,
+      "title": "Stable tool catalog ordering for prompt cache"
+    },
+    {
+      "brief": {
+        "problem": "Need per-request memory metrics",
+        "proposed_v1": [
+          "Reproduce the linked issues with deterministic fixtures.",
+          "Implement one narrow workflow that resolves the repeated friction.",
+          "Compare maintained competitors before committing to scope."
+        ],
+        "validation": [
+          "Validate the need with affected maintainers.",
+          "Publish a runnable before/after example."
+        ]
+      },
+      "competition": {
+        "query": "memory metrics need",
+        "repositories": [],
+        "total_count": 0
+      },
+      "components": {
+        "breadth": 25,
+        "competition_gap": 100.0,
+        "demand": 48.28,
+        "evidence": 100.0,
+        "recency": 95.48,
+        "release_momentum": 20
+      },
+      "enriched": false,
+      "id": "ddf2565a3605",
+      "issues": [
+        {
+          "comments": 3,
+          "id": "example/local-server:issue:2",
+          "kind": "issue",
+          "labels": [
+            "enhancement"
+          ],
+          "reactions": 0,
+          "repository": "example/local-server",
+          "title": "Need per-request memory metrics",
+          "updated_at": "2026-09-05T00:00:00+00:00",
+          "url": "https://github.com/example/local-server/issues/2"
+        }
+      ],
+      "keywords": [
+        "memory",
+        "metrics",
+        "need",
+        "per-request",
+        "expose"
+      ],
+      "releases": [],
+      "score": 64.8,
+      "title": "Need per-request memory metrics"
+    }
+  ],
+  "repositories": [
+    "example/local-server",
+    "example/agent-runtime"
+  ],
+  "schema_version": "1.0",
+  "warnings": [],
+  "weights": {
+    "breadth": 0.18,
+    "competition_gap": 0.16,
+    "demand": 0.28,
+    "evidence": 0.12,
+    "recency": 0.18,
+    "release_momentum": 0.08
+  },
+  "window_days": 45
+}
