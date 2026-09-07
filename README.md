@@ -4,11 +4,15 @@
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-**Find useful AI developer projects to build, backed by inspectable GitHub evidence.**
+**Discover AI developer project opportunities from GitHub issues and releases, with transparent scoring and optional local-AI summaries.**
 
 BuildSignal watches public repositories, groups recurring developer problems, checks lexical
 competition, and creates ranked project briefs with source links and every score component.
 It is a Python CLI with **zero runtime dependencies**. An LLM is optional and only edits brief wording.
+
+Built for developers researching **AI agents, automation, developer tooling, and local AI**.
+Read the [research basis and primary sources](docs/research-basis.md) or explore a
+[sample opportunity report](examples/buildsignal-2026-09-07.md).
 
 ## Try it in a minute
 
@@ -140,9 +144,15 @@ never follows issue instructions, and never writes to GitHub. See [SECURITY.md](
 
 ## Research and ownership
 
-See [research basis](docs/research-basis.md), [architecture](docs/architecture.md), and
-[contribution guide](CONTRIBUTING.md). This implementation was reconstructed after an unpublished
-prototype was lost; its behavior and tests are documented here rather than claiming identical history.
+### Research status
+
+There is currently no published research paper accompanying BuildSignal. The
+[research basis and primary sources](docs/research-basis.md) document the product hypothesis,
+implementation references, competing approaches, and limitations. These are project research notes;
+the scoring weights have not been validated in a research study.
+
+For technical details, see the [architecture](docs/architecture.md) and
+[contribution guide](CONTRIBUTING.md).
 
 Created for and maintained by **Hanish Keloth**. Copyright 2026 Hanish Keloth.
 Released under the [MIT License](LICENSE).
